@@ -1,0 +1,10 @@
+[
+    {
+    "account" : "your mail account",
+    "password" : "your mail password",
+    "server" : "your mail server",
+    "pop_port" : "pop3 port",
+    "imap_port" : "imap port",
+    "smtp_port" : "smtp port"
+    }
+]

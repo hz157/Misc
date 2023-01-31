@@ -1,0 +1,20 @@
+[
+    {
+        "name": "姓名",
+        "stucode": "学号",
+        "password": "密码",
+        "schoolcode": "学校代码",
+        "mail" : "邮箱",
+        "contact" : "电话",
+        "position" : "打卡地址"
+    },
+     {
+        "name": "姓名",
+        "stucode": "学号",
+        "password": "密码",
+        "schoolcode": "学校代码",
+        "mail" : "邮箱",
+        "contact" : "电话",
+        "position" : "打卡地址"
+    }
+]
