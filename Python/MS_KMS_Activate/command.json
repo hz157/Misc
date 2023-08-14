@@ -1,0 +1,23 @@
+{
+    "Windows": [
+        "slmgr.vbs -upk",
+        "slmgr.vbs -ipk {KEYS}",
+        "slmgr.vbs -skms {KMS IP}",
+        "slmgr.vbs -ato",
+        "slmgr.vbs -dlv"
+        ],
+    "Office x86": [
+        "cd \\Program Files (x86)\\Microsoft Office\\Office16",
+        "cscript ospp.vbs /sethst: {KMS IP}",
+        "cscript ospp.vbs /inpkey: {KEYS}",
+        "cscript ospp.vbs /act",
+        "cscript ospp.vbs /dstatusall"
+        ],
+    "Office x86_64": [
+        "cd \\Program Files\\Microsoft Office\\Office16",
+        "cscript ospp.vbs /sethst: {KMS IP}",
+        "cscript ospp.vbs /inpkey: {KEYS}",
+        "cscript ospp.vbs /act",
+        "cscript ospp.vbs /dstatusall"
+        ]
+}
